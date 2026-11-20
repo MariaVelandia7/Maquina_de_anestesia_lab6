@@ -217,3 +217,27 @@ Con el sensor instalado y calibrado, la prueba verifica numéricamente que la co
 
 El sistema de presión negativa es un módulo opcional de aspiración que genera vacío para extraer secreciones, sangre y fluidos de la vía aérea del paciente o del campo quirúrgico. Funciona generalmente con un principio tipo Venturi, aprovechando el gas de suministro, y tiene regulación del nivel de vacío para no dañar los tejidos. Permite despejar la vía aérea (por ejemplo, antes de intubar o extubar) sin depender de una toma de vacío de pared.
 
+---
+
+
+## Referencias
+
+[1] American Society of Anesthesiologists, "Types of Anesthesia," *Made for This Moment*. Disponible: https://madeforthismoment.asahq.org/anesthesia-101/types-of-anesthesia/
+
+[2] R. D. Miller, *Miller's Anesthesia*, 9.ª ed. Filadelfia, PA, EE. UU.: Elsevier, 2020.
+
+[3] Mindray, "WATO EX-20 – Anesthesia Machine." Disponible: https://www.mindray.com/en/products/anesthesia/wato-ex-20
+
+[4] Soma Technology, "Mindray WATO EX-30/20 anesthesia machine – Specifications," 2020. Disponible: https://www.somatechnology.com/pdfFiles/Mindray-WATO-EX-30-20-anesthesia-machine.pdf
+
+[5] Shenzhen Mindray Bio-Medical Electronics Co., *WATO EX-20 Anesthesia Machine – Operator's Manual*. Shenzhen, China, 2009.
+
+[6] J. A. Dorsch y S. E. Dorsch, *Understanding Anesthesia Equipment*, 5.ª ed. Filadelfia, PA, EE. UU.: Lippincott Williams & Wilkins, 2008.
+
+[7] Mindray, "WATO EX-30/20 Máquinas de anestesia" (folleto). Disponible: https://www.tecnoimagen.com.ar/folleto/HOSPITALARIA/Maquina_Anestesia/Maquina_anestesia_WATO-EX20-30_Mindray.pdf
+
+[8] Mindray, *A-Series Anesthesia System – Cleaning and Disinfection Instructions*. Disponible: https://manuals.online/mindray/medical-equipment/a-series/installation-instructions/1pahj
+
+[9] Shenzhen Mindray Bio-Medical Electronics Co., *WATO EX-35 Anesthesia Machine – Operator's Manual*, 2015.
+
+
