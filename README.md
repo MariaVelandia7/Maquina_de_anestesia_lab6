@@ -4,6 +4,7 @@ Instrumentación Biomédica y Biosensores, Ingeniería Biomédica, UMNG (Semestr
 ### Integrantes
 María José Peña Velandia - 5600876. 
 Antonia Garzón Vanegas - 5600843. 
+Ana Sofia Conde Porras -5600770
 
 ---
 
