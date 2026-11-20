@@ -102,7 +102,8 @@ Es decir, conduce los gases anestésicos desde la máquina de anestesia hasta el
 <img width="725" height="723" alt="image" src="https://github.com/user-attachments/assets/decc50c2-2c6f-437e-92d3-f9b0f66f3d2e" />
 (Fig 3. cal sodada – CO₂ absorbent canister.) [Manual Service]
 <img width="960" height="1253" alt="image" src="https://github.com/user-attachments/assets/fe0bd984-a9d9-487d-ac35-8f8683d13b70" />
-(Fig 4. Válvula APL y fuelle sistema de respiración
+(Fig 4. Válvula APL y fuelle sistema de respiración)
+
 #### Componentes principales
 - **Válvulas unidireccionales inspiratoria y espiratoria:** garantizan que el gas circule en un solo sentido.
 - **Recipiente (canister) absorbente de CO₂:** contiene la cal sodada que retira el CO₂ del gas exhalado.
@@ -167,35 +168,48 @@ La **pausa inspiratoria** (parámetro **TIP:TI**, también llamado *Tpause* o *p
 Se ubica en la parte superior de la máquina, en la plataforma de vaporizadores (el EX-20 tiene dos posiciones), conectado en serie al circuito de gas fresco.
 
 Su función es convertir el anestésico inhalatorio líquido (por ejemplo, sevoflurano o isoflurano) en vapor y mezclarlo con el gas fresco en una concentración precisa, que se ajusta con el dial. Está calibrado para un agente específico, compensa temperatura y flujo, y cuenta con un sistema de bloqueo que impide usar dos vaporizadores a la vez.
+<img width="934" height="1276" alt="image" src="https://github.com/user-attachments/assets/11d4deaf-20a1-45f4-a7b3-4e19f0c9a5c5" />
+(Fig 5. Ubicación vaporizador.)
+
+<img width="622" height="381" alt="image" src="https://github.com/user-attachments/assets/f9ebe11f-fc96-4006-a74d-93ff551921d5" />
+(Fig 6. Vaporizador conectado.) [Manual service]
+
 
 # b. Válvula APL
 
-Se ubica en el sistema de respiración, sobre el circuito del paciente, junto al selector de modo manual/mecánico.
+La válvula APL se localiza en el sistema de respiración, específicamente en el circuito manual. Se puede identificar como un mando giratorio con una escala de presión (en cmH₂O) situado en la parte frontal del sistema de respiración, tal como se observa en la figura 10. La función de esta válvula es durante la ventilación manual, la válvula APL limita la presión máxima que alcanza el circuito cuando se aprieta la bolsa manual; permite ajustar un umbral de presión, por ejemplo de 0 a 75 cmH₂O, si la presión supera el valor fijado la válvula se abre liberando el exceso de gas al exterior o al sistema de evacuación de gases anestésicos. Gracias a lo anterior se protege los pulmones del paciente de presiones excesivas durante la ventilación manual.
 
-Su función es limitar la presión máxima de las vías aéreas durante la ventilación manual con la bolsa reservorio, permitiendo la salida del exceso de gas hacia el sistema de evacuación de gases anestésicos. Al cerrar la perilla aumenta la presión en el circuito. En ventilación mecánica queda fuera del circuito y la presión la controla el ventilador.
+<img width="932" height="1259" alt="image" src="https://github.com/user-attachments/assets/55457e81-b616-4e99-8b9f-9239d1b277c4" />
+(Fig 7. Ubicación valvula APL.)
+
 
 # c. Recipiente absorbente de CO2
 
 Se ubica en el sistema de respiración, en la rama espiratoria, como un canister transparente con cal sodada.
 
 Su función es retirar el CO2 exhalado por el paciente mediante una reacción química, lo que permite reinhalar el gas exhalado de forma segura (circuito circular) y trabajar con flujos bajos de gas fresco, ahorrando anestésico y oxígeno. Un indicador cambia de color cuando el absorbente se agota.
+<img width="938" height="1286" alt="image" src="https://github.com/user-attachments/assets/658fb15c-5b30-4154-aedf-95de9b0910b7" />
+(Fig 8. Ubicación Recipiente absorbente de CO₂.)
 
 # d. Fuelle
 
-Se ubica dentro de la carcasa transparente del ventilador, integrado al sistema de respiración.
+El fuelle forma parte del sistema de respiración y se aloja dentro de una carcasa transparente situada en la parte frontal del circuito (se puede observar en la figura 10), la cual se puede desmontar girando en sentido antihorario. este es el elemento que separa el gas impulsor del gas que respira el paciente, cuando el ventilador envía gas impulsor hacia la carcasa del fuelle, este se comprime y empuja el gas anestésico contenido en su interior hacia el paciente (inspiración); durante la espiración, el fuelle se reexpande al permitir la salida del gas exhalado. Finalmente, cabe resaltar que el fuelle es de un material libre de latex y no alergénico, que puede manejar un volumen de 1500ml para el control adecuado de ventilación.
 
-Su función es separar el gas motor (que acciona el ventilador de forma neumática) del gas del paciente. En la inspiración, el gas motor comprime el fuelle y empuja la mezcla hacia el paciente; en la espiración, el fuelle se llena con el gas exhalado. Además permite observar visualmente la ventilación y detectar fugas.
+<img width="936" height="1267" alt="image" src="https://github.com/user-attachments/assets/0d051dff-0264-4b4b-b4d7-13f18bd02d4b" />
+(Fig 12. Ubicación fuelle.)
+
 
 ## 2. Mensaje "batería en uso" con el paciente conectado
 
-El mensaje indica que se perdió la alimentación de red y la máquina funciona con su batería interna. Las acciones son:
+En el manual de servicio se describe que hacer en este caso en la sección 3.12 Power Failure Test; cuando la máquina está funcionando con alimentación de red (AC) y de repente se desconecta el cable de alimentación, la pantalla muestra el mensaje “Battery in Use” y el LED de AC se apaga, mientras que la máquina continúa funcionando con la batería interna, conforme a lo anterior el procedimiento de acción es:
 
-1. No apagar ni desconectar la máquina; el paciente sigue siendo ventilado.
-2. Verificar de inmediato el cable de alimentación, la toma, el interruptor de red y el breaker.
-3. Si se restablece la red, el mensaje desaparece y la batería se recarga.
-4. Si no se restablece, avisar al equipo quirúrgico y revisar la autonomía restante de la batería.
-5. Tener lista una bolsa de ventilación manual autoinflable como respaldo.
-6. Reportar el evento a mantenimiento biomédico.
+Verificar de inmediato la conexión del cable de alimentación a la red eléctrica y conectarlo nuevamente si se ha soltado.
+
+1. Tras reconectar la alimentación AC, el mensaje debe desaparecer y el LED de AC debe encenderse. Si la batería está descargada, la máquina podría apagarse si no se restablece la AC a tiempo.
+
+2. En caso de que la batería esté descargada y el paciente está conectado, se debe priorizar la seguridad del paciente, por tanto hay que asegurar una ventilación adecuada (manual o mecánica) mientras se restablece la alimentación principal.
+
+3. Una vez finalizada la cirugía o el uso, realizar una prueba de autonomía de la batería y, si es necesario, reemplazar la batería de litio (la lista de piezas reemplazables cada 3 años incluye la batería)
 
 ## 3. Frecuencia de reemplazo del recipiente absorbente de CO2
 
