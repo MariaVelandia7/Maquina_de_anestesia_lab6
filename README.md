@@ -4,7 +4,7 @@ Instrumentación Biomédica y Biosensores, Ingeniería Biomédica, UMNG (Semestr
 ### Integrantes
 María José Peña Velandia - 5600876. 
 Antonia Garzón Vanegas - 5600843. 
-Ana Sofia Conde Porras -5600770
+Ana Sofia Conde Porras -5600770.
 
 ---
 ## Introducción 
@@ -213,38 +213,130 @@ Verificar de inmediato la conexión del cable de alimentación a la red eléctri
 
 ## 3. Frecuencia de reemplazo del recipiente absorbente de CO2
 
-No hay un intervalo fijo en tiempo; el absorbente se reemplaza según su nivel de agotamiento:
+La vida util de este recipinete depende del flujo de gas, el número de pacientes y la concentración de CO₂ exhalado, sin embargo en la sección 4.1.1 del manual de servicio se proporciona indicaciones prácticas:
 
-- Cuando el indicador de color cambia en gran parte del canister (criterio habitual: cerca de dos tercios).
-- Cuando el monitor muestra CO2 inspirado (FiCO2) mayor a 0.
-- Si estuvo sin uso por mucho tiempo, ya que puede resecarse y el color puede revertir.
+• En la sección mencionada se listan los sellos del recipiente absorbente como el canister absorvente, que deben reemplazarse cada año para evitar posibles fugas. La cal sodada no se específica porque es un consumible de corta duración.
 
-Se revisa antes de cada cirugía y se cambia cada vez que se cumpla alguno de estos criterios.
+• En las pruebas de fugas del sistema de respiración (secciones 3.7.2 y 3.7.3), se comprueba que el canister no tenga fugas. La vida útil del absorbente se determina por el cambio de color (indicador químico) que muestran muchas marcas comerciales: cuando el color cambia, por ejemplo de blanco a violeta, el absorbente está agotado.
+
+Ahora bien conforme a lo investigado en la práctica clínica, el absorvente de CO₂ se debe cambiar cada 8-12 horas de uso continuoo cuando el indicador de color muestre agotamiento. En entornos de baja frecuencia como quirófanos con pocas cirugías, se recomienda cambiarlo al menos cada 1‑2 semanas o antes si ha estado expuesto a la humedad.
 
 ## 4. Procedimiento para verificar fuga en el cilindro de alta presión
 
-La prueba se hace con la máquina desconectada de la toma de pared:
+Acorde a la sección 3.3.2 Cylinder High Pressure Leak Test, se deben tener ciertas precauciones previas: para el N₂O, después de la prueba se debe abrir el suministro de O₂, después se debe cerrar el interruptor principal de N₂O y abrir el flujómetro de N₂O para liberar el gas residual, finalmente esperar a que el manómetro de N₂O indique cero. Teniendo la precación explicada se debe seguir el siguiente procedimiento paso a paso:
 
-1. Desconectar el suministro de gas de pared y dejar los flujómetros al mínimo.
-2. Encender el sistema y verificar que el cilindro esté bien instalado en el yugo.
-3. Abrir lentamente la válvula del cilindro y registrar la presión del manómetro.
-4. Cerrar la válvula del cilindro.
-5. Observar el manómetro durante el tiempo indicado en el manual (cerca de 1 minuto) y medir la caída de presión.
-6. Si la caída supera la tolerancia del manual, hay fuga; se revisan el sello del yugo, las conexiones y el regulador.
-7. Repetir el procedimiento con cada cilindro (O2 y N2O).
+1. Asegurar que el interruptor general (system switch) esté en la posición ⭘ (apagado).
+
+2. Cerrar todas las válvulas de los cilindros, excepto la del cilindro que se va a probar.
+
+3. Abrir la válvula del cilindro que se está comprobando.
+
+4. Registrar la presión actual del cilindro (leer el manómetro de alta presión correspondiente).
+
+5. Cerrar la válvula del cilindro.
+
+6. Esperar un (1) minuto exacto.
+
+7. Registrar nuevamente la presión del cilindro tras ese minuto.
+
+Ahora bien el criterio para determinar una fuga, depende de la presión del gas impulsor, si este valor disminuye más de 5000 kPa (725 psi), hay fuga; de mismo modo, si la presión del gas no impulsor es menor de 690 kPa (100 psi) también significa fuga. Llegados a dichos casos se debe instalar una nueva junta del cilindro, de cambiarse y aún presentar la fuga se debe de revisar el circuito de alta presión.
 
 ## 5. Influencia del sensor de O2 en la prueba del sistema de control de flujo
 
-Sí influye. El sensor de O2 mide la concentración de oxígeno en el circuito (FiO2) y es la referencia para comprobar que el sistema de control de flujo entrega la proporción correcta de gases, especialmente el enlace O2/N2O que evita mezclas hipóxicas (menos de 21 % de O2).
+El sensor de O₂ influye notablemente, pues permite realizar una comprobación de la concentración real de oxígeno (FiO₂) y requiere que el sensor esté previamente calibrado. Para demostrar la impor tancia del mismo en el manual de servicio en la sección 3.4.1 y 3.4.2 se muestra una comparación cuando se uso, o no, el sensor.
 
-Con el sensor instalado y calibrado, la prueba verifica numéricamente que la concentración de O2 se mantiene en un rango seguro al variar los flujos de N2O y O2. Sin sensor, o con el sensor agotado o sin calibrar, esta verificación no es confiable: solo se puede evaluar lo que marcan los flujómetros y no hay vigilancia de FiO2, lo cual es un riesgo para el paciente.
+1. Prueba sin sensor de O₂:
+
+Para esta modalidad se debe verificar el funcionamiento mecánico que impide que el flujo de O₂ sea peligrosamente bajo cuando aumenta el flujo de N₂O. Para ello se conecta el suministro de gases y se abren sus válvulas por completo, posteriormente se deben llevar los flujos a mitad de escala y comprobar que los flotadores de los tubos de flujo se mueven suavemente, estos porcesos se deben verificar para la medición del flujo de O₂ y N₂O; finalmente se debe probar que si se disminuye el el flujo de O₂, el flujo de N₂O debe disminuir proporcionalmente. Aunque se puede medir y controlar el flujo de e O₂, no se sabe realmente la concentración real del mismo, olo se comprueba que los flujos mecánicos mantengan una relación mínima.
+
+2. Prueba con sensor de O₂:
+
+Para este método se conserva el objetivo anterior, pero adicionando la verificación que la concentración de oxígeno medida nunca sea inferior al 25% durante toda la prueba, es decir, se debe llevar a cabo el mismo procedimiento descrito con anterioridad, pero manteniendo un control estricto de de la concentración de O₂. En llegado caso de que la concentración baje del 25%, la prueba falla y se debe revisar el sistema de enlace o el sensor. La principal ventaja de esta prueba radica en que con sensor de O₂ se detecta fallos en la mezcla real de gases que no serían detectados solo con los flujos.
 
 ## 6. Para qué se requiere el sistema de presión negativa
 
-El sistema de presión negativa es un módulo opcional de aspiración que genera vacío para extraer secreciones, sangre y fluidos de la vía aérea del paciente o del campo quirúrgico. Funciona generalmente con un principio tipo Venturi, aprovechando el gas de suministro, y tiene regulación del nivel de vacío para no dañar los tejidos. Permite despejar la vía aérea (por ejemplo, antes de intubar o extubar) sin depender de una toma de vacío de pared.
+El sistema de presión negativa (succión) tiene como propósito aspirar fluidos corporales, como las secreciones, sangre, vómito, y otros de la viía aérea del paciente (generalmente de la faringe o tráquea) durante la cirugía, para prevenir la obstrucción, la broncoaspiración y la neumonía durante los procedimientos; este sistema está integrado directamente en la máquina de anestesia. Este elemento es fundamental cuando se entiende que durante a anestesia, el paciente no puede toser ni expulsar secreciones voluntariamente, lo que aumenta el riesgo de la obstrucción de la vía aérea, por tanto no es un elemento opcional, sino que es un requisito de seguridad obligatorio
 
----
+Este elemennto está compuesto principalmente por un generador de vacio, por medio del flujo de gases impulsores; un reguldor de presión negativa, que permite controlar el nivel de vacio requerido; y finalmente un frasco colector para fluidos aspirados y un filtro.
 
+# PARTE C
+## A) Fallas que pueden presentarse en el funcionamiento de los subsistemas y sus causas
+
+1. Fallas subsistema de suministro de gases
+
+• Fugas en las conexiones de suministro pueden ocurrir a partir de un tubo de suministro dañado o sello en la conexión deteriorado, también a partir de la propia entrada del suministro.
+
+• El manómetro de presión de red puede muestrar lecturas inexactas o no muestra nada a causa del mal estado del mismo, o una obstrucción en la entrada del suministro.
+
+• No ocurre la alarma “O₂ Supply Failure” cuando la presión de O₂ es baja, o ocurre cuando la presión es normal, se debe a que el interruptor de presión de la entrada de O₂ está mal ajustado.
+
+2. Fallas subsistema de administración de gases anestésicos
+
+• Fuga en el conjunto del pulsador de O₂ u de otros gases puede deberse a un error en el sellado o po el vaporizador sin ajustar correctamente.
+
+• El flotador del flujómetro indica valores incorrectos o no se mueve puede deberse a un flujómetro dañado.
+
+• El sistema de corte O₂‑N₂O no funciona si las válvulas de dichos gases se encuentran en mal estado o directamente dañadas.
+
+3. Fallas subsistema del circuito del paciente
+
+• La fugas en el circuito del paciente son las que más sujetos a fallas están pues depende de si el canoster se encuentra en buen estado o bien instalado, del estado del sello del brazo de la bolsa manual, del frasco colector de agua, de la carcasa y sellos del fuelle, de las válvulas de respiración, de los sensores de O₂ o inclusive por los propios tubos de respiración.
+
+• Errores en las mediciones de concentración de oxígeno se pueden deber a agua acumulada en los sensores, un error en la calibración o en el estado de los mismos.
+
+• La onda de flujo se muestra anormal, a causa de errores en los sensores y controladores de flujo, como una fuga en la línea de muestreo de presión del sensor de flujo.
+
+4. Fallas subsistema neumático del ventilador
+
+• La falla más común es un volumen tidal inexacto, que puede deberse a errores en el sensor de flujo, fugas en el sistema de respiración o en la línea de muestreo de presión del sensor de flujo, en los sensores de presión en la placa monitora defectuoso, un límite de presión demasiado bajo, provocando espiración anticipada, entre otros.
+
+• El ventilador puede no funcionar correctamente después de una prueba de fugas, ya que la La válvula de seguridad no es controlable por la placa auxiliar.
+
+5. Fallas subsistema eléctrico y de alimentación
+
+• Durante la operación, la pantalla y el LED de CA se apagan repentinamente y el ventilador no arranca, lo anterior puede deberse a que la alimentación de CA no está conectada correctamente y la batería interna es insuficiente.
+
+• Al encender, la pantalla se ilumina momentáneamente con destello y luego se normaliza, y se produce una alarma de fallo de comunicación con la placa de potencia; se debe a que el Software de la placa de potencia dañado y se debe reiniciar.
+
+• Si la máquina no arranca puede deberse a un cable del interruptor general suelto, un fusible fundido, el Software de placa de potencia está dañado, el Hardware de la placa de potencia es defectuoso o el interruptor general se encuentra en mal estado.
+
+• No sale gas por la válvula en modo ventilación mecánica, se debe a un interruptor Bag/vent defectuoso o ACGO activado, también por una válvula que no puede abrirse.
+
+## B) Orden de los subsistemas en función del número de fallas asociadas
+
+Sistema de respiración: con más de 20 causas de fuga más fallas de sensores (flujo, O₂, presión) es el subsistema con mayor número de entradas en la tabla y en las pruebas de fugas según el capítulo 5 del manual de servicio.
+
+Subsistema eléctrico y de potencia: con 12 fallas que pueden deberse a problemas de alimentación, pantalla, botones, ventilador y conexiones de red.
+
+Suministro de gases y gas impulsor: aproximadamente 10 fallas, donde se incluyen problemas con manómetros, interruptores de presión, fugas en conexiones y reguladores.
+
+Sistema de administración de gases anestésicos: tiene igual número de fallas que el sistema anterior, por fugas de en pulsador O₂ flush, interruptor general, rotámetros y válvula de corte O₂‑N₂O.
+
+Sistema de ventilación: con 8 fallas que principalmente son e volumen tidal inexacto y apertura de válvulas.
+
+Sensor de O₂ y calibración: específicamente con 5 fallas, que incluyen errores de calibración, conexión y desviaciones.
+
+## C) ¿Qué tipos de anestésicos son los más usados en cirugía?
+
+la anestesia se utiliza depediendo de su uso, y este uso depende de dos categorías, anestésicos intravenosos e inhalatorios, su selección depende del tipo de cirugía, la duración, el estado del paciente y la necesidad de relajación muscular o analgesia adicional; a partir de lo annterior se describen los anestésicos más usados de cada categoría [4]:
+
+1. Anestésicos intravenosos
+
+• Propofol: es sin duda alguna el más usado en la actualidad para inducción y para sedación en procedimientos ambulatorios, ya que permite una recuperación rápida y suave con efecto antiemético, es decir, de aliviar las nauceas.
+
+• Etomidato: se usa en pacientes con inestabilidad hemodinámica o shock, se caracteriza por tener una mínima depresión cardiovascular.
+
+• Ketamina: se usa en procedimientos dolorosos, asmáticos, o en entornos con recursos limitados; pues posee una analgesia potente, manteniendo reflejos protectores y frecuencia cardíaca.
+
+• Tiopental: anteriormente era el más usado, pero fue reemplazado por el propofol, aunque aún se usa en ciertos procedimientos de neurocirugía por sus características barbitúricas, es decir, que es depresor del sistema nervioso central.
+
+2. Anestésicos inhalatrios
+
+• Sevoflurano: de la categoría de las anestesias inhalatorias es el más usado debido a su baja solubilidad sanguínea, no es irritante en vías respiratorias, y posee inducción y recuperación rápidas; es ideal para pacientes de todas las edades por las carecterísticas anteriores, sin embargo, puede generar compuestos nefrotóxicos al reaccionar con el absorbente de CO₂ seco.
+
+• Isoflurano: es menos soluble que el sevoflurano y puede provocar cierto grado de depresión miocárdica, sin embargo es muy estable, de bajo costo y usado en cirugías largas; a pesar de ello posee una recuperación más enta que sevoflurano, adicionalmente puede causar taquicardia.
+
+• Desflurano: de todos es el que menos solubilidad tiene, y con una recuperación extremadamente rápida, destaca en tener un excelente control de la profundidad anestésica aunque requiere de un vaporizador calentado especial y es irritante para las vias inhalatorias.
 
 ## Referencias
 
