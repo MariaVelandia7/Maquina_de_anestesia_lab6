@@ -7,6 +7,8 @@ Antonia Garzón Vanegas - 5600843.
 Ana Sofia Conde Porras -5600770
 
 ---
+## Introducción 
+En el presente documento, se hablará sobre las máquinas de anestesia, las cuales su función principal es mantener las funciones vitales del paciente en un estado equilibrado y estable de inconsciencia controlada, cumpiendo las labores de proporcionar oxígeno y ventilación alpaciente, además de mezclar diferentes gases anestésicos en las dosis adecuadas. A pesar de lo fundamental de sus funciones, y de los posibles riesgos que puede simbolizar al paciente un error en la máquina y del operador, no se trata de un dispositivo complejo u hostil, sino se trata de un conjunto de tuberías y sistemas de bombeo quesuministran una mezcla de gases de forma cuidadosamente controlada y de fácil uso y mantenimiento bajo la capacitación adecuada.
 
 ## Parte A – Revisión de literatura
 
@@ -56,6 +58,9 @@ La WATO EX-20 trabaja con tres gases medicinales: **oxígeno (O₂), óxido nitr
 #### Aire medicinal
 - Gas **portador alternativo** al N₂O.
 - Permite **disminuir la FiO₂**, lo que evita atelectasias por absorción y toxicidad por oxígeno cuando no se desea usar N₂O.
+<img width="945" height="1261" alt="image" src="https://github.com/user-attachments/assets/aefcd5cc-3fe4-4512-8ea6-7337f61df24e" />
+(Fig 1. Suministro de gases médicos WATO EX-20.)
+Cabe mencionar que los gases anteriores necesitan de un sistema de alta presión pues ingresan a la máquina por medio de cilindros, estos cilindros se conectan a través de uniones de horquilla (yoke) con válvulas antirretorno y filtros, luego los gases pasan por un regulador que reduce la presión a aproximadamente a 400kPa y posteriormente a 200kPa. La presión que pueden poseer estos gases antes de pasar por el regulador varian, por ejemplo el O₂ y el aire pueden poseer una presión de entre 6.9 – 15MPa, en cambio el N₂O es significativamente menor con valores de 4.2 – 6MPa.
 
 #### Agentes volátiles (sevoflurano, isoflurano, desflurano, halotano, enflurano)
 - Producen la **hipnosis y el mantenimiento** de la anestesia general.
@@ -84,6 +89,8 @@ Los **agentes volátiles no** entran por el sistema de alta presión: se agregan
 
 #### ¿Qué es?
 El **sistema de respiración** (circuito de respiración o *breathing system*) es el conjunto de componentes que **conecta la salida de gas fresco de la máquina con la vía aérea del paciente**. En la WATO EX-20 es un **sistema circular con absorción de CO₂** (*circle system*), compacto y desmontable [3], [7].
+<img width="930" height="689" alt="image" src="https://github.com/user-attachments/assets/b62a54f4-1ea6-4889-aa58-84d1b7f2578b" />
+(Fig 2. Diagrama sistema de respiración.) [Manual Service]
 
 #### Funciones
 - **Entregar** al paciente la mezcla de O₂, gases y agente anestésico en la concentración programada.
@@ -91,7 +98,11 @@ El **sistema de respiración** (circuito de respiración o *breathing system*) e
 - Permitir la **ventilación manual** (con bolsa reservorio y válvula APL) o **mecánica** (con el fuelle del ventilador), seleccionadas con el interruptor **Bolsa/Ventilador (Manual/Auto)**.
 - **Limitar la presión** en la vía aérea y enviar el exceso de gas al sistema de evacuación de gases (AGSS).
 - **Monitorizar** la presión en la vía aérea, los volúmenes (sensores de flujo) y la concentración de O₂ (sensor de O₂).
-
+Es decir, conduce los gases anestésicos desde la máquina de anestesia hasta el paciente y viceversa; elimina el dióxido de carbono (CO₂) exhalado mediante un absorbente de CO₂ (cal sodada – CO₂ absorbent canister); también permite la re‑inhalación de gases (con CO₂ eliminado) para conservar calor y humedad, reduciendo la pérdida de agua insensible y el consumo de agentes anestésicos. Por último, cabe resaltar que dispone de dos modos de ventilación: manual (con bolsa reservorio y válvula APL) y mecánica (con fuelle y ventilador neumático).
+<img width="725" height="723" alt="image" src="https://github.com/user-attachments/assets/decc50c2-2c6f-437e-92d3-f9b0f66f3d2e" />
+(Fig 3. cal sodada – CO₂ absorbent canister.) [Manual Service]
+<img width="960" height="1253" alt="image" src="https://github.com/user-attachments/assets/fe0bd984-a9d9-487d-ac35-8f8683d13b70" />
+(Fig 4. Válvula APL y fuelle sistema de respiración
 #### Componentes principales
 - **Válvulas unidireccionales inspiratoria y espiratoria:** garantizan que el gas circule en un solo sentido.
 - **Recipiente (canister) absorbente de CO₂:** contiene la cal sodada que retira el CO₂ del gas exhalado.
