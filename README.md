@@ -5,7 +5,146 @@ Instrumentación Biomédica y Biosensores, Ingeniería Biomédica, UMNG (Semestr
 María José Peña Velandia - 5600876. 
 Antonia Garzón Vanegas - 5600843. 
 
+---
 
+## Parte A – Revisión de literatura
+
+### a. ¿Cuántos y cuáles son los tipos de anestesia que comúnmente se aplican durante una cirugía?
+
+En la práctica clínica se reconocen **cuatro tipos** principales de anestesia [1], [2]:
+
+#### 1. Anestesia general
+Se administran fármacos intravenosos (propofol, opioides, relajantes musculares) y/o agentes inhalados (sevoflurano, isoflurano, desflurano) que producen pérdida total de la conciencia, analgesia, amnesia y relajación muscular. Normalmente requiere manejo de la vía aérea (tubo endotraqueal o máscara laríngea) y ventilación mecánica. **Es la que se administra con la máquina de anestesia.**
+- **Estado del paciente:** inconsciente, sin reflejos protectores; respiración asistida o controlada.
+- **Ejemplos:** cirugías abdominales, torácicas, neurocirugía y procedimientos largos.
+
+#### 2. Anestesia regional
+Se inyecta anestésico local cerca de un nervio o grupo de nervios para bloquear la sensibilidad de una región del cuerpo. Incluye la anestesia **neuroaxial** (raquídea/espinal y epidural) y los **bloqueos de nervios periféricos** (por ejemplo, bloqueo del plexo braquial).
+- **Estado del paciente:** consciente o con sedación; respira por sí mismo.
+- **Ejemplos:** cesáreas, cirugía de cadera o rodilla, cirugía de miembro superior.
+
+#### 3. Anestesia local
+Se infiltra anestésico local (lidocaína, bupivacaína) directamente en el tejido de un área pequeña.
+- **Estado del paciente:** completamente despierto.
+- **Ejemplos:** suturas, biopsias de piel, procedimientos odontológicos.
+
+#### 4. Sedación o cuidado anestésico monitorizado (MAC)
+Se administran fármacos intravenosos que disminuyen el nivel de conciencia en distintos grados (mínima, moderada o profunda), con frecuencia combinada con anestesia local o regional.
+- **Estado del paciente:** relajado o somnoliento; responde a estímulos según la profundidad.
+- **Ejemplos:** endoscopias, colonoscopias, cirugía de cataratas.
+
+> **Nota:** según la vía de administración, la anestesia general puede ser **inhalatoria**, **intravenosa total (TIVA)** o **balanceada** (combinación de ambas). La balanceada es la más común en quirófano.
+
+---
+
+### b. ¿Con cuáles gases trabaja una máquina de anestesia y qué función cumple cada uno? ¿Cuáles de ellos se incorporan a la máquina mediante sistema de alta presión?
+
+La WATO EX-20 trabaja con tres gases medicinales: **oxígeno (O₂), óxido nitroso (N₂O) y aire** [3], [4], además de los **agentes anestésicos volátiles** que se agregan en el vaporizador.
+
+#### Oxígeno (O₂)
+- Gas indispensable para el metabolismo del paciente; garantiza una fracción inspirada de oxígeno (FiO₂) segura.
+- Actúa como **gas portador** del agente anestésico.
+- En la WATO EX-20 también puede funcionar como **gas impulsor (drive gas)** del ventilador, que es de accionamiento neumático y control electrónico [4].
+- Alimenta el **flush de O₂** (lavado rápido) y el sistema de alarma por falla de suministro de oxígeno.
+
+#### Óxido nitroso (N₂O)
+- Gas anestésico de baja potencia con efecto **analgésico** y sedante.
+- Se usa como coadyuvante: reduce la cantidad de agente volátil necesaria (efecto de segundo gas) y acelera la inducción.
+- Nunca se administra sin O₂: la máquina tiene un sistema de proporción O₂/N₂O que impide mezclas hipóxicas.
+
+#### Aire medicinal
+- Gas **portador alternativo** al N₂O.
+- Permite **disminuir la FiO₂**, lo que evita atelectasias por absorción y toxicidad por oxígeno cuando no se desea usar N₂O.
+
+#### Agentes volátiles (sevoflurano, isoflurano, desflurano, halotano, enflurano)
+- Producen la **hipnosis y el mantenimiento** de la anestesia general.
+- Son líquidos que se evaporan en el **vaporizador** y se incorporan al flujo de gas fresco en una concentración controlada (% en volumen).
+- La WATO EX-20 admite hasta dos vaporizadores, pero solo uno puede usarse a la vez [3].
+
+#### Sistema de alta presión
+
+La máquina recibe los gases de dos formas:
+
+1. **Suministro central (red hospitalaria):** llega a **presión intermedia** (aproximadamente 280–600 kPa) por mangueras conectadas en la parte posterior del equipo [5].
+2. **Cilindros montados en los yugos (*yokes*) de la parte posterior:** constituyen el **sistema de alta presión**. Los gases que se incorporan por este sistema son:
+   - **O₂:** cilindro lleno a aproximadamente 2000 psi (≈ 13,8 MPa).
+   - **N₂O:** cilindro a aproximadamente 745 psi (≈ 5,1 MPa), almacenado en estado líquido.
+   - **Aire:** cilindro a aproximadamente 2000 psi (≈ 13,8 MPa), si la configuración lo incluye.
+
+El sistema de alta presión está formado por el **yugo con sistema de seguridad de pines (PISS)**, un filtro, una válvula de retención (*check valve*), el **manómetro de alta presión del cilindro** y el **regulador de presión primario**, que reduce la presión a un valor intermedio antes de que el gas llegue a los flujómetros [5], [6].
+
+Los **agentes volátiles no** entran por el sistema de alta presión: se agregan en el sistema de baja presión, después de los flujómetros, a través del vaporizador.
+
+**Recorrido del gas:** cilindro (alta presión) → yugo/PISS → filtro y válvula de retención → regulador primario → presión intermedia (aquí se une con la red hospitalaria) → flujómetros → vaporizador → salida de gas fresco.
+
+---
+
+### c. ¿Qué es el sistema de respiración en la máquina de anestesia y cuál es su función? ¿Qué partes de este sistema podrían esterilizarse por medio de autoclave?
+
+#### ¿Qué es?
+El **sistema de respiración** (circuito de respiración o *breathing system*) es el conjunto de componentes que **conecta la salida de gas fresco de la máquina con la vía aérea del paciente**. En la WATO EX-20 es un **sistema circular con absorción de CO₂** (*circle system*), compacto y desmontable [3], [7].
+
+#### Funciones
+- **Entregar** al paciente la mezcla de O₂, gases y agente anestésico en la concentración programada.
+- **Eliminar el CO₂** exhalado mediante el absorbente (cal sodada), lo que permite la **reinhalación** de los gases y el uso de **bajos flujos** (ahorro de anestésico y conservación de calor y humedad).
+- Permitir la **ventilación manual** (con bolsa reservorio y válvula APL) o **mecánica** (con el fuelle del ventilador), seleccionadas con el interruptor **Bolsa/Ventilador (Manual/Auto)**.
+- **Limitar la presión** en la vía aérea y enviar el exceso de gas al sistema de evacuación de gases (AGSS).
+- **Monitorizar** la presión en la vía aérea, los volúmenes (sensores de flujo) y la concentración de O₂ (sensor de O₂).
+
+#### Componentes principales
+- **Válvulas unidireccionales inspiratoria y espiratoria:** garantizan que el gas circule en un solo sentido.
+- **Recipiente (canister) absorbente de CO₂:** contiene la cal sodada que retira el CO₂ del gas exhalado.
+- **Fuelle (*bellows*) y su carcasa:** entregan el volumen corriente durante la ventilación mecánica.
+- **Bolsa reservorio:** permite la ventilación manual y sirve de reserva de gas.
+- **Válvula APL:** limita la presión durante la ventilación manual o espontánea.
+- **Manómetro de presión de vía aérea (Paw):** indica la presión en el circuito.
+- **Sensores de flujo y sensor de O₂:** miden los volúmenes inspirados y espirados y la FiO₂.
+- **Tubos corrugados, pieza en Y y mascarilla:** conectan el circuito con el paciente.
+
+#### Partes que pueden esterilizarse en autoclave
+La mayoría de las piezas del sistema de respiración **soportan autoclave a vapor** hasta **134 °C** (ciclo recomendado de **20 minutos**), mientras que los componentes electrónicos o de medición **no** [5], [8].
+
+** Sí pueden autoclavarse:**
+- Bloque o cuerpo del circuito de respiración.
+- Válvulas inspiratoria y espiratoria con sus cubiertas.
+- Recipiente absorbente de CO₂ (vacío, sin cal sodada).
+- Fuelle y su carcasa (el fuelle: 121 °C durante 20 min o 134 °C durante 7 min).
+- Brazo de la bolsa y partes desmontables de la válvula APL.
+- Tubos corrugados, pieza en Y y bolsas **reutilizables** de silicona.
+
+** No deben autoclavarse:**
+- Manómetro de presión de la vía aérea.
+- Sensores de flujo.
+- Sensor de O₂.
+- Tubos y frascos de aspiración, y el sistema AGSS.
+- Cal sodada (es desechable).
+- Accesorios desechables (de un solo uso).
+
+>  Antes de autoclavar cualquier pieza se debe verificar en el manual que esté identificada como autoclavable. Las piezas no autoclavables se limpian con un desinfectante aprobado o mediante limpieza superficial.
+
+---
+
+### d. ¿Cuántos y cuáles son los submenús del ventilador? ¿En qué consiste cada uno? ¿En cuál de ellos se puede activar la pausa inspiratoria?
+
+Al presionar la tecla **[Menú]** en la pantalla del ventilador de la WATO EX-20 se despliega el menú principal, compuesto por **cuatro submenús** [5]:
+
+#### 1. Modo de ventilación
+Permite seleccionar el modo de ventilación: **VCV** (ventilación controlada por volumen), **PCV** (ventilación controlada por presión) y ventilación **manual/espontánea**. También permite ajustar los parámetros del paciente: volumen corriente (Vt), frecuencia respiratoria, relación I:E, PEEP, presión límite (Plimit) o presión inspiratoria (Pinsp) y pausa inspiratoria.
+
+#### 2. Configuración de alarmas
+Define los límites superior e inferior de las alarmas: presión de vía aérea (Paw), volumen minuto (MV), volumen corriente (Vt), FiO₂, frecuencia respiratoria y apnea. También permite revisar el historial de alarmas.
+
+#### 3. Configuración de usuario / sistema
+Contiene los ajustes generales de la interfaz: brillo de la pantalla, volumen de alarmas y teclas, unidades de presión, idioma, fecha y hora.
+
+#### 4. Mantenimiento
+Reúne las funciones de mantenimiento de usuario: prueba de fugas del sistema, calibración de los sensores de flujo, calibración del sensor de O₂ (al 21 % y al 100 %) y configuraciones del sistema (algunas protegidas con contraseña para el servicio técnico).
+
+#### ¿En cuál se activa la pausa inspiratoria?
+La **pausa inspiratoria** (parámetro **TIP:TI**, también llamado *Tpause* o *plateau inspiratorio*) se activa en el submenú **Modo de ventilación**, **únicamente en el modo VCV** [5], [9]:
+- Se expresa como **porcentaje del tiempo inspiratorio** y se ajusta entre **OFF (apagado) y 5 %–60 %**, en pasos de 5 % [4].
+- En **PCV no está disponible**, porque en ese modo la presión ya se mantiene constante durante toda la inspiración [9].
+- **Utilidad clínica:** mantiene el gas en los pulmones al final de la inspiración, mejora la distribución del volumen entre los alvéolos y permite medir la **presión meseta (Pplat)**, útil para calcular la distensibilidad (*compliance*) pulmonar.
 
 # Parte B
 
